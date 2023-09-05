@@ -9,15 +9,19 @@ import AdventurePage from './components/AdventurePage';
 import ShoppingPage from './components/ShoppingPage';
 import HistoricalPage from './components/HistoricalPage';
 import NightlifePage from './components/NightlifePage';
-axios.defaults.baseURL = "http://localhost:3003"
+
+axios.defaults.baseURL = "http://localhost:3003";
+
 const App = () => {
-  const [setExamples] = useState([]);
+  const [examples, setExamples] = useState([]);
   const [text, setText] = useState('');
   const [restaurant, setRestaurant] = useState('');
   const [rating, setRating] = useState('');
   const [comment, setComment] = useState('');
 
-  useEffect(() => {fetchExamples();}, []);
+  useEffect(() => {
+    fetchExamples();
+  }, []);
 
   const fetchExamples = async () => {
     try {
@@ -37,11 +41,11 @@ const App = () => {
       console.error('Error:', error);
     }
   };
-//foods
+
+  // Foods
   const submitReview = async () => {
     try {
       await axios.post('/api/reviews/submit', { restaurant, rating, comment });
-      
       setRestaurant('');
       setRating('');
       setComment('');

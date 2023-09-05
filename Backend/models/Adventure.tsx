@@ -1,6 +1,6 @@
 // models/Adventure.js
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose'
 
 const adventureSchema = new mongoose.Schema({
   // Define the fields and their types specific to adventures

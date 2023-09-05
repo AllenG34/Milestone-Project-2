@@ -1,6 +1,6 @@
 // models/Food.js
 
-const mongoose = require('mongoose');
+import mongoose from 'mongoose'
 
 const foodSchema = new mongoose.Schema({
   // Define the fields and their types
