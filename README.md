@@ -1,4 +1,4 @@
-#Las Vegas Travel App
+Las Vegas Travel App
 ======================
 
 This app is to help you and others navigate through the wonderful city of Las Vegas
