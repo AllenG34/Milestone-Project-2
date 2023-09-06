@@ -24,6 +24,28 @@ First group project that I have ever done so with that being said the beginning 
 A ton of trial and error that I had to go through to make things work with my peers. Now personally my project doesn't have the backend working and everyone in my group except one person got it to work so that is the one bug that is in my repository. But other than that it should work fine.
 
 
+API
+===
+
+When attempting to use this project there are a couple of steps to open the project.
+
+Frontend 
+
+* First open the repository to view the files/folders
+* For the frontend it is called "nevada"
+* open it by using "cd nevada" in a git bash terminal
+
+To ensure that it worked successfuly look into the terminal to see if there are any issues or check to see if you are in the right directory. The directory should say "Milestone-Project-2/nevada"
+
+Backend
+
+* Open a new terminal instead of closing the frontend terminal
+* For backend we used "Backend"
+* open it by using the command "cd backend" in a git bash terminal that is seperate from the frontend
+
+To check if you did it correctly it should look like "Milestone-Project-2/backend". In order for the project to fully function you need both Frontend and Backend servers to be connected. So make sure there are two seperate terminals open for each folder.
+
+
 
 
 

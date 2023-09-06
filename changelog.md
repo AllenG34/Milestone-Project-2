@@ -1,0 +1,4 @@
+-fixed title
+-finished Readme
+-finished typescript
+-first commit
